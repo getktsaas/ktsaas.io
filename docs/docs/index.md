@@ -1,4 +1,4 @@
-# Welcome to KtSaaS.
+# Welcome to KtSaaS!
 
 ## Getting Started
 
