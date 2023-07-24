@@ -120,7 +120,7 @@ export function Pricing() {
             price="$199"
             regularPrice="$399"
             description="Build and launch fast, on your own."
-            href="https://bowtiedfullstack.substack.com/"
+            href="https://bowtiedstack.substack.com/"
             features={[
               'Buy once, use forever',
               'Licence for 1 engineer',
@@ -136,7 +136,7 @@ export function Pricing() {
             price="$499"
             regularPrice="$799"
             description="Help your crew ship faster, jump ahead of the competition, and stay ahead."
-            href="https://bowtiedfullstack.substack.com/"
+            href="https://bowtiedstack.substack.com/"
             features={[
               'Buy once, use forever',
               'Licence for 2-9 engineers',
@@ -151,7 +151,7 @@ export function Pricing() {
             price="$999+"
             regularPrice="$1299+"
             description="Abstractions and productivity so your whole team can move fast."
-            href="https://bowtiedfullstack.substack.com/"
+            href="https://bowtiedstack.substack.com/"
             features={[
               'Buy once, use forever',
               'Licence for 10+ engineers',

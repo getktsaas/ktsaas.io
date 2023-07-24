@@ -3,7 +3,7 @@
 An easier way to build a SaaS app with Kotlin that can scale with your success.
 
 # Waitlist
-KtSaas is coming soon, join the [waitlist here](https://bowtiedfullstack.substack.com) to be the first to get building when KtSaas lands.
+KtSaas is coming soon, join the [waitlist here](https://bowtiedstack.substack.com) to be the first to get building when KtSaas lands.
 
 # Salient
 

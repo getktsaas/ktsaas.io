@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             {"Your next SaaS product doesn\'t need months of setup. "}<br/>1. Get KtSaas. <br/>2. Write your business code & UI. <br/>3. Launch! Your service is already ready to scale.
           </p>
-          <Button href="https://bowtiedfullstack.substack.com/" color="white" className="mt-10">
+          <Button href="https://bowtiedstack.substack.com/" color="white" className="mt-10">
             Join the Waitlist
           </Button>
         </div>
