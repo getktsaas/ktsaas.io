@@ -1,17 +1,52 @@
-# Welcome to MkDocs
+# Welcome to KtSaaS.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Getting Started
 
-## Commands
+KtSaaS Starter is a repo which you can use to quickly build a new SaaS business using high-level abstractions, pre-wired DevOps, all in Kotlin, so you can stay very productive.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Follow this guide to get started.
 
-## Project layout
+Don't have access to the starter repo? [Get started here](/).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Clone the Repo
+
+```
+git clone git@github.com:getktsaas/ktsaas-starter.git
+```
+
+## Activate Hermit
+
+Before building the project, you need to activate the [Hermit](https://cashapp.github.io/hermit/)
+environment, unless you are using
+the [Hermit Shell Hooks](https://cashapp.github.io/hermit/docs/usage/shell/) or Hermit IntelliJ Plugin.
+
+```shell
+. ./bin/activate-hermit
+```
+
+## Building
+Build starter:
+
+```
+$ ./gradlew clean shadowJar
+```
+
+## Run the Service
+
+### From the command line
+
+```
+$ ./gradlew clean runShadow
+```
+
+### From IntelliJ
+In the gradle tab, navigate to 'tasks/application' and find the 'runShadow' task
+
+Double click to run it or right click to run in debug mode
+
+
+### Confirm starter works with curl
+
+```
+$ curl --data '{"message": "hello"}' -H 'Content-Type: application/json' http://localhost:8080/ping
+```
