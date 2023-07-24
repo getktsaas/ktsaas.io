@@ -89,7 +89,7 @@ jobs:
       - name: Docs Build
         run: cd docs && mkdocs build && cd ..
       - name: Copy docs site to Next.js out directory
-        run: mkdir -p ./out/docs && cp -r docs/site/ ./out/docs
+        run: mkdir -p ./out/docs && cp -r docs/site/* ./out/docs
       - name: Upload artifact
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v1
