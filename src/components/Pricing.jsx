@@ -88,7 +88,7 @@ function Plan({ name, price, regularPrice, description, href, features, featured
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Join the Waitlist
+        Get Started
       </Button>
     </section>
   )

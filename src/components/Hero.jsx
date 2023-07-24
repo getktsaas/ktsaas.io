@@ -31,7 +31,7 @@ export function Hero() {
         Most starters are too simple to scale quickly. <br/>Start with a framework which is ready to grow. <br/>KtSaas is remarkably simple, scalable, & productive; all in Kotlin.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://bowtiedstack.substack.com/">Join the Waitlist</Button>
+        <Button href="https://bowtiedstack.substack.com/">Get Started</Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"

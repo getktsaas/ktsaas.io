@@ -112,7 +112,7 @@ export function Header() {
             </div> */}
             <Button href="https://bowtiedstack.substack.com/" color="blue">
               <span>
-                Join the Waitlist <span className="hidden lg:inline">today</span>
+                Get Started <span className="hidden lg:inline">today</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
