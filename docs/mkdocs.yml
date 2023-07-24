@@ -1,0 +1,23 @@
+site_name: KtSaaS
+site_description: Documentation for the KtSaaS starter codebase
+site_url: "https://ktsaas.io/docs/"
+repo_url: https://github.com/getktsaas/ktsaas.io
+repo_name: "getktsaas/ktsaas.io"
+edit_uri: "edit/master/docs"
+copyright: Copyright &copy; 2023 KtSaaS
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/logo.png
+
+plugins:
+  git-revision-date-localized:
+    type: timeago
+  offline: {}
+  search: {}
+  mermaid2:
+    version: 8.13.3
+    arguments:
+      theme: "dark"
+
+
