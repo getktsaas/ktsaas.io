@@ -20,4 +20,9 @@ plugins:
     arguments:
       theme: "dark"
 
+extra:
+  analytics:
+    provider: google
+    property: G-FJ9SZT3CN0
+
 

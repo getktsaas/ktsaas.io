@@ -20,6 +20,15 @@ export default function Home() {
           content="Most starters are too simple to scale quickly. Start with a framework which is ready to grow. KtSaas is remarkably simple, scalable, & productive; all in Kotlin."
         />
       </Head>
+      {/* <!-- Google tag (gtag.js) --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJ9SZT3CN0"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FJ9SZT3CN0');
+      </script>
       <Header />
       <main>
         <Hero />
