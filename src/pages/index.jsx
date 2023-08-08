@@ -29,7 +29,7 @@ export default function Home() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-FJ9SZT3CN0');`}
+          gtag('config', 'G-CSLPL8X5FZ');`}
         </script>
         <Hero />
         <PrimaryFeatures />
