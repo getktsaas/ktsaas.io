@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <main>
         {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJ9SZT3CN0"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSLPL8X5FZ"></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
