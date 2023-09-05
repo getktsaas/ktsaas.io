@@ -22,15 +22,6 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSLPL8X5FZ"></script>
-        <script>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-CSLPL8X5FZ');`}
-        </script>
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
