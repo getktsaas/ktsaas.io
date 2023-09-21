@@ -49,7 +49,7 @@ export function Footer() {
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} KtSaaS. All rights
-            reserved.
+            reserved. <Link className="hover:underline" href="/terms">Terms of Service</Link>. <Link className="hover:underline" href="/privacy">Privacy Policy</Link>.
           </p>
         </div>
       </Container>
