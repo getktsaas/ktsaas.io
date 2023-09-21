@@ -8,7 +8,7 @@ const faqs = [
     {
       question: 'What is KtSaaS?',
       answer:
-        'KtSaaS is a starter codebase that let\'s you focus your efforts on business logic & UI. You get a lot of batteries included: initial service structure, DB connectivity, deploys with Docker Swarm, devops (CI/CD, observability, SSL certs), and more. For small teams, this can save you months of setup. Skip straight to high velocity, productive software development.',
+        "KtSaaS is a starter codebase that let's you focus your efforts on business logic & UI. You get a lot of batteries included: initial service structure, DB connectivity, deploys with Docker Swarm, devops (CI/CD, observability, SSL certs), and more. For small teams, this can save you months of setup. Skip straight to high velocity, productive software development.",
     },
     {
       question: 'Who is this for?',
@@ -17,7 +17,8 @@ const faqs = [
     },
     {
       question: 'Can I see the product before purchasing?',
-      answer: 'You bet! Try the live demo to see what the starter comes with. Check the documentation to understand how you can get started once you buy your licence.',
+      answer:
+        'You bet! Try the live demo to see what the starter comes with. Check the documentation to understand how you can get started once you buy your licence.',
     },
     {
       question: 'Can I use the code for multiple projects?',
@@ -32,37 +33,35 @@ const faqs = [
         'Use the email associated with your Github account during purchase. Once your payment is processed, your Github account will be granted access to the private repository containing the KtSaaS starter code.',
     },
     {
-      question:
-        'How will I receive updates?',
+      question: 'How will I receive updates?',
       answer:
-        'Updates will be pushed to the starter repo regularly. Additional functionality is planned to be added in the coming year. Version bumps and bug fixes will also be pushed on an ongoing basis so anytime you purchase, you\'re getting the latest and greatest.',
+        "Updates will be pushed to the starter repo regularly. Additional functionality is planned to be added in the coming year. Version bumps and bug fixes will also be pushed on an ongoing basis so anytime you purchase, you're getting the latest and greatest.",
     },
     {
-      question:
-        'What happens if I find a bug?',
+      question: 'What happens if I find a bug?',
       answer:
-        'File an issue in the Github private repo and we\'ll work with you to investigate, land a fix, and get your team unblocked.',
+        "File an issue in the Github private repo and we'll work with you to investigate, land a fix, and get your team unblocked.",
     },
   ],
   [
     {
       question: 'I bought the code. Can I get help?',
       answer:
-        'Reach out via email or in the Github repo conversation to get support. We\'ll reply with help as soon as possible. Licences which include priority support will be at the front of the support queue.',
+        "Reach out via email or in the Github repo conversation to get support. We'll reply with help as soon as possible. Licences which include priority support will be at the front of the support queue.",
     },
     {
       question: 'Can I get a discount?',
-      answer: 'We offer student discounts, reach out from your academic institution email address and we\'ll apply your discount.',
+      answer:
+        "We offer student discounts, reach out from your academic institution email address and we'll apply your discount.",
     },
     {
       question: 'Can I get a refund?',
       answer:
-        'Given the non-refundable nature of the product, we do not offer refunds. If you have any further questions before you purchase, please get in touch. We\'re happy to help you understand if KtSaaS is a good fit for you.',
+        "Given the non-refundable nature of the product, we do not offer refunds. If you have any further questions before you purchase, please get in touch. We're happy to help you understand if KtSaaS is a good fit for you.",
     },
     {
       question: 'What if I have a different question?',
-      answer:
-        'Email us and we\'ll answer as soon as possible.',
+      answer: "Email us and we'll answer as soon as possible.",
     },
   ],
 ]
@@ -91,7 +90,9 @@ export function Faqs() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            {"Got a question that isn\'t answered below? Email us and we\'ll get back to you."}
+            {
+              "Got a question that isn't answered below? Email us and we'll get back to you."
+            }
           </p>
         </div>
         <ul

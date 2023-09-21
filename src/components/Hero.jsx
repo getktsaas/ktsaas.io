@@ -28,7 +28,9 @@ export function Hero() {
         , scalable, and all in Kotlin.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most starters are too simple to scale quickly. <br/>Start with a framework which is ready to grow. <br/>KtSaas is remarkably simple, scalable, & productive; all in Kotlin.
+        Most starters are too simple to scale quickly. <br />
+        Start with a framework which is ready to grow. <br />
+        KtSaas is remarkably simple, scalable, & productive; all in Kotlin.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://bowtiedstack.substack.com/">Get Started</Button>

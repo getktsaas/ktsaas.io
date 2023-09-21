@@ -14,13 +14,13 @@ const features = [
   {
     title: 'Kotlin Scalable Service Framework',
     description:
-      "Built on Misk, a Kotlin service framework, used at 40k+ QPS scale by Cash App, Faire, Square, and other big companies.",
+      'Built on Misk, a Kotlin service framework, used at 40k+ QPS scale by Cash App, Faire, Square, and other big companies.',
     image: screenshotMiskConfig,
   },
   {
     title: 'Kotlin Database ORM + MySQL8',
     description:
-      "Use SqlDelight to interact with the database: generated Kotlin to code against in your service + all queries still written in SQL.",
+      'Use SqlDelight to interact with the database: generated Kotlin to code against in your service + all queries still written in SQL.',
     image: screenshotSqlDelight,
   },
   // {

@@ -46,7 +46,15 @@ function CheckIcon({ className }) {
   )
 }
 
-function Plan({ name, price, regularPrice, description, href, features, featured = false }) {
+function Plan({
+  name,
+  price,
+  regularPrice,
+  description,
+  href,
+  features,
+  featured = false,
+}) {
   return (
     <section
       className={clsx(
@@ -64,8 +72,7 @@ function Plan({ name, price, regularPrice, description, href, features, featured
         {description}
       </p>
       <p className="order-first font-display text-5xl font-light tracking-tight text-white">
-        {price}{" "}
-        <span className='line-through'>{regularPrice}</span>
+        {price} <span className="line-through">{regularPrice}</span>
       </p>
       <ul
         role="list"
