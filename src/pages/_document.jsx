@@ -23,15 +23,13 @@ export default function Document(props) {
       <body className="flex h-full flex-col">
         {/* <!-- Google tag (gtag.js) --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSLPL8X5FZ"></script>
-        <script type="text/javascript">
-          {`
+        <script dangerouslySetInnerHTML={{__html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-CSLPL8X5FZ');
-          `}
-        </script>
+        `}}></script>
         <Main />
         <NextScript />
       </body>
