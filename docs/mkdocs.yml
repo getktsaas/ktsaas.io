@@ -12,6 +12,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.footer
 
 plugins:
   git-revision-date-localized:
@@ -27,5 +28,10 @@ extra:
   analytics:
     provider: google
     property: G-CSLPL8X5FZ
-
-
+  social:
+    - icon: fontawesome/solid/house
+      link: /
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ktsaas
+    - icon: fontawesome/brands/github
+      link: https://github.com/getktsaas
