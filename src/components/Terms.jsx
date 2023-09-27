@@ -88,9 +88,9 @@ export function Terms() {
           </h3>
           <p>
             Users may use the Boilerplate for personal or commercial projects
-            but are prohibited from open-sourcing, sharing, or distributing it,
-            in part or whole, without the express written permission of the
-            author.
+            but are prohibited from open-sourcing, selling, sharing, or
+            distributing it, in part or whole, without the express written
+            permission of KtSaaS.
           </p>
           <h3 className="text-xl font-medium" id="violations-and-termination">
             Violations and Termination
