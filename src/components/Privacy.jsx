@@ -17,11 +17,10 @@ export function Privacy() {
             1. Introduction
           </h3>
           <p>
-            Welcome to ktsaas.io. At ktsaas.io,
-            we are committed to protecting your privacy and ensuring the
-            security of your personal information. This Privacy Policy explains
-            how we collect, use, and protect your data when you visit our
-            website.
+            Welcome to KtSaaS. At KtSaaS, we are committed to protecting your
+            privacy and ensuring the security of your personal information. This
+            Privacy Policy explains how we collect, use, and protect your data
+            when you visit our website.
           </p>
           <h3 className="text-xl font-medium" id="2-data-collected">
             2. Data Collected
@@ -29,7 +28,8 @@ export function Privacy() {
           <p>We collect the following types of user data:</p>
           <p>
             Email Addresses: We collect user-provided email addresses for
-            account creation.
+            account creation, and for support, marketing, and educational
+            communication which can be opted-out at any time.
           </p>
           <p>
             Analytics Data: We use Google Analytics to collect data about your
@@ -76,7 +76,8 @@ export function Privacy() {
           <p>
             Analytics data is kept according to Google Analytics&#39; standard
             terms. Email addresses are retained for the duration of the
-            purchased license.
+            purchased license, and for support, marketing, and educational
+            communication which can be opted-out at any time.
           </p>
           <h3 className="text-xl font-medium" id="8-user-rights">
             8. User Rights

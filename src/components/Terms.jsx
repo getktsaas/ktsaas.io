@@ -17,6 +17,7 @@ export function Terms() {
           <h3 className="text-xl font-medium" id="acceptance-of-terms">
             Acceptance of Terms
           </h3>
+          {/* Implied express content */}
           <p>
             By accessing and using the ktsaas.io platform
             (&quot;Platform&quot;), you agree to abide by these Terms of Service
@@ -27,26 +28,29 @@ export function Terms() {
             Description of Service
           </h3>
           <p>
-            KtSaaS offers the ktsaas.io Platform for the purpose of
-            selling SaaS boilerplate code (&quot;Boilerplate&quot;). Users may
-            access the Boilerplate on the Platform subject to the terms and
-            conditions outlined herein.
+            KtSaaS offers the ktsaas.io Platform for the purpose of selling SaaS
+            boilerplate code (&quot;Boilerplate&quot;). Users may access the
+            Boilerplate on the Platform subject to the terms and conditions
+            outlined herein.
           </p>
           <h3 className="text-xl font-medium" id="location-and-jurisdiction">
             Location and Jurisdiction
           </h3>
           <p>
-            KtSaaS is located in Canada, and these Terms are governed
-            by Canadian law. By using the Platform, you consent to the exclusive
+            KtSaaS is located in Canada, and these Terms are governed by
+            Canadian law. By using the Platform, you consent to the exclusive
             jurisdiction and venue of Canadian courts.
           </p>
           <h3 className="text-xl font-medium" id="privacy-policy">
             Privacy Policy
           </h3>
           <p>
-            Use of the Platform is also governed by our Privacy Policy, which
-            can be found [link to Privacy Policy]. By using the Platform, you
-            consent to the data practices described in the Privacy Policy.
+            Use of the Platform is also governed by our{' '}
+            <Link className="hover:underline" href="/privacy">
+              Privacy Policy
+            </Link>
+            . By using the Platform, you consent to the data practices described
+            in the Privacy Policy.
           </p>
           <h3 className="text-xl font-medium" id="account-creation">
             Account Creation
@@ -93,8 +97,8 @@ export function Terms() {
           </h3>
           <p>
             Violations of these Terms may result in the termination of support
-            and Boilerplate access. KtSaaS reserves the right to
-            pursue legal action for damages caused by violations.
+            and Boilerplate access. KtSaaS reserves the right to pursue legal
+            action for damages caused by violations.
           </p>
           <h3 className="text-xl font-medium" id="account-termination">
             Account Termination
@@ -114,10 +118,10 @@ export function Terms() {
           </h3>
           <p>
             These Terms constitute the entire agreement between you and KtSaaS
-            regarding your use of the ktsaas.io Platform. No waiver of
-            any term shall be deemed a further or continuing waiver of such term
-            or any other term. If any provision of these Terms is found to be
-            invalid or unenforceable by a court of competent jurisdiction, such
+            regarding your use of the ktsaas.io Platform. No waiver of any term
+            shall be deemed a further or continuing waiver of such term or any
+            other term. If any provision of these Terms is found to be invalid
+            or unenforceable by a court of competent jurisdiction, such
             provision shall be severed from the remainder of the Terms, which
             will continue to be in full force and effect.
           </p>
