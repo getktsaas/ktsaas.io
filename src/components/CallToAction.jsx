@@ -26,12 +26,12 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             {"Your next SaaS product doesn't need months of setup. "}
             <br />
-            1. Get KtSaas. <br />
+            1. Get KtSaaS. <br />
             2. Write your business code & UI. <br />
             3. Launch! Your service is already ready to scale.
           </p>
           <Button
-            href="https://bowtiedstack.substack.com/"
+            href="https://ktsaas.lemonsqueezy.com/checkout/buy/64d19867-599c-4599-b3e8-ebe69b392ce3"
             color="white"
             className="mt-10"
           >

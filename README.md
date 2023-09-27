@@ -1,9 +1,10 @@
-# KtSaas: Build your next SaaS business to scale with Kotlin
+# KtSaaS: Build your next SaaS business to scale with Kotlin
 
 An easier way to build a SaaS app with Kotlin that can scale with your success.
 
-# Waitlist
-KtSaas is coming soon, join the [waitlist here](https://bowtiedstack.substack.com) to be the first to get building when KtSaas lands.
+Learn more at [ktsaas.io](https://ktsaas.io).
+
+# Development Getting Started
 
 # Salient
 

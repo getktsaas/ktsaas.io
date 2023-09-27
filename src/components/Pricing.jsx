@@ -113,12 +113,12 @@ export function Pricing() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">One small cost,</span>
+              <span className="relative">A small one-time cost,</span>
             </span>{' '}
-            one giant leap in productivity.
+            your giant leap in velocity.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Whatever size your team, KtSaas will let you build & scale faster.
+            Whatever size your team, KtSaaS will let you build & scale faster.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
@@ -127,12 +127,12 @@ export function Pricing() {
             price="$199"
             regularPrice="$399"
             description="Build and launch fast, on your own."
-            href="https://bowtiedstack.substack.com/"
+            href="https://ktsaas.lemonsqueezy.com/checkout/buy/143a9e20-7583-4312-a7be-79bbfcef3a28"
             features={[
               'Buy once, use forever',
               'Licence for 1 engineer',
               'Unlimited commercial projects',
-              'Lifetime starter repository access',
+              '1 year starter repository access',
               'Ongoing updates',
               'Basic support',
             ]}
@@ -140,25 +140,25 @@ export function Pricing() {
           <Plan
             featured
             name="Crew"
-            price="$499"
+            price="$399"
             regularPrice="$799"
             description="Help your crew ship faster, jump ahead of the competition, and stay ahead."
-            href="https://bowtiedstack.substack.com/"
+            href="https://ktsaas.lemonsqueezy.com/checkout/buy/64d19867-599c-4599-b3e8-ebe69b392ce3"
             features={[
               'Buy once, use forever',
-              'Licence for 2-9 engineers',
+              'Licence for 1-9 engineers',
               'Unlimited commercial projects',
               'Lifetime starter repository access',
               'Ongoing updates',
-              'Priority support',
+              'Basic support',
             ]}
           />
           <Plan
             name="Team"
             price="$999+"
-            regularPrice="$1299+"
-            description="Abstractions and productivity so your whole team can move fast."
-            href="https://bowtiedstack.substack.com/"
+            regularPrice="$1999+"
+            description="Abstractions and productivity so your whole org can move fast."
+            href="https://ktsaas.lemonsqueezy.com/checkout/buy/ef1bbf23-0359-4aed-8248-8af32192b596"
             features={[
               'Buy once, use forever',
               'Licence for 10+ engineers',

@@ -27,7 +27,7 @@ export function Terms() {
             Description of Service
           </h3>
           <p>
-            BowTied Fullstack offers the ktsaas.io Platform for the purpose of
+            KtSaaS offers the ktsaas.io Platform for the purpose of
             selling SaaS boilerplate code (&quot;Boilerplate&quot;). Users may
             access the Boilerplate on the Platform subject to the terms and
             conditions outlined herein.
@@ -36,7 +36,7 @@ export function Terms() {
             Location and Jurisdiction
           </h3>
           <p>
-            BowTied Fullstack is located in Canada, and these Terms are governed
+            KtSaaS is located in Canada, and these Terms are governed
             by Canadian law. By using the Platform, you consent to the exclusive
             jurisdiction and venue of Canadian courts.
           </p>
@@ -93,7 +93,7 @@ export function Terms() {
           </h3>
           <p>
             Violations of these Terms may result in the termination of support
-            and Boilerplate access. BowTied Fullstack reserves the right to
+            and Boilerplate access. KtSaaS reserves the right to
             pursue legal action for damages caused by violations.
           </p>
           <h3 className="text-xl font-medium" id="account-termination">
@@ -113,8 +113,8 @@ export function Terms() {
             Miscellaneous
           </h3>
           <p>
-            These Terms constitute the entire agreement between you and BowTied
-            Fullstack regarding your use of the ktsaas.io Platform. No waiver of
+            These Terms constitute the entire agreement between you and KtSaaS
+            regarding your use of the ktsaas.io Platform. No waiver of
             any term shall be deemed a further or continuing waiver of such term
             or any other term. If any provision of these Terms is found to be
             invalid or unenforceable by a court of competent jurisdiction, such

@@ -17,7 +17,7 @@ export function Privacy() {
             1. Introduction
           </h3>
           <p>
-            Welcome to ktsaas.io, provided by BowTied Fullstack. At ktsaas.io,
+            Welcome to ktsaas.io. At ktsaas.io,
             we are committed to protecting your privacy and ensuring the
             security of your personal information. This Privacy Policy explains
             how we collect, use, and protect your data when you visit our

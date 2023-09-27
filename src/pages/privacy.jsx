@@ -11,7 +11,7 @@ export default function Page() {
         <title>KtSaaS - A simple, scalable, starter all in Kotlin</title>
         <meta
           name="description"
-          content="Most starters are too simple to scale quickly. Start with a framework which is ready to grow. KtSaas is remarkably simple, scalable, & productive; all in Kotlin."
+          content="Most starters are too simple to scale quickly. Start with a framework which is ready to grow. KtSaaS is remarkably simple, scalable, & productive; all in Kotlin."
         />
       </Head>
       <Header />
