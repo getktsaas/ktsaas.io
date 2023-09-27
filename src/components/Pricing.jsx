@@ -115,7 +115,7 @@ export function Pricing() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
               <span className="relative">A small one-time cost,</span>
             </span>{' '}
-            your giant leap in velocity.
+            a giant leap in your velocity.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             Whatever size your team, KtSaaS will let you build & scale faster.
