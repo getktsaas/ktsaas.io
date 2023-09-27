@@ -24,6 +24,8 @@ plugins:
     arguments:
       theme: "dark"
 
+# TODO add top level navigation with easy link back to landing page and to purchase
+
 extra:
   analytics:
     provider: google
