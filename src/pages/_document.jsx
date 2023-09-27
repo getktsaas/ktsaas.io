@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document(props) {
   let pageProps = props.__NEXT_DATA__?.props?.pageProps
@@ -22,12 +23,12 @@ export default function Document(props) {
       </Head>
       <body className="flex h-full flex-col">
         {/* <!-- Google tag (gtag.js) --> */}
-        <NextScript
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CSLPL8X5FZ"
         />
-        <NextScript async src="/gtag.js" />
-        <NextScript id="google-analytics">
+        <Script async src="/gtag.js" />
+        <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -35,7 +36,7 @@ export default function Document(props) {
 
             gtag('config', 'G-CSLPL8X5FZ');
           `}
-        </NextScript>
+        </Script>
         <Main />
         <NextScript />
       </body>
