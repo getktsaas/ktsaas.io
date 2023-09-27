@@ -28,6 +28,7 @@ extra:
   analytics:
     provider: google
     property: G-CSLPL8X5FZ
+  generator: false
   social:
     - icon: fontawesome/solid/house
       link: /
