@@ -1,4 +1,4 @@
-# Get Started with KtSaaS
+# Get Started
 
 Welcome to one of the highest velocity boilerplate starter communities on earth.
 
