@@ -57,11 +57,11 @@ export function Footer() {
             <Link className="hover:underline" href="/privacy">
               Privacy Policy
             </Link>
-            .
+            .{' '}
             <Link className="hover:underline" href="mailto:inquire@ktsaas.io">
               Support
             </Link>
-            .
+            .{' '}
           </p>
         </div>
       </Container>
