@@ -110,9 +110,9 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="https://bowtiedstack.substack.com/" color="blue">
+            <Button href="https://ktsaas.lemonsqueezy.com/checkout/buy/64d19867-599c-4599-b3e8-ebe69b392ce3" color="blue">
               <span>
-                Get Started <span className="hidden lg:inline">today</span>
+                Get Started <span className="hidden lg:inline">Today</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
