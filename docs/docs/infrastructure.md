@@ -11,7 +11,12 @@ As of 2023 Q4, the full KtSaaS suite has been confirmed working on the following
 - 64GB Disk
 - Ubuntu 20.04 Live Server
 
-This page will be updated regularly to provide up-to-date guidance. 
+This page will be updated regularly to provide up-to-date guidance.
+
+There are many options to consider if you're not self-hosting but don't want to go with a big name public cloud:
+
+- [Digital Ocean](): $48/m
+- [Linode](): $48/m
 
 # Raw Data
 
