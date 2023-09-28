@@ -22,6 +22,7 @@ Use the following steps to get started with any standard Javascript web framewor
 
 1. Create your Javascript NPM project in a directory in your repo
 2. Add the build directory to your JVM classpath by adding the following to `starter/service/build.gradle.kts`
+
   ```kts
   src.main.resources {
     add(...)
@@ -29,6 +30,7 @@ Use the following steps to get started with any standard Javascript web framewor
     TODO
   }
   ```
+  
 3. Install a `StaticResourceAction`` to route resource requests to your JS artificats in the classpath.
 4. Install a `WebProxyAction`` to route requests to your local development server, you should only install this in the `development` deployment environment.
 
