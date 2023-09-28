@@ -27,15 +27,15 @@ export default function Document(props) {
           src="https://www.googletagmanager.com/gtag/js?id=G-CSLPL8X5FZ"
         ></script>
         <script async src="/gtag.js"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-            gtag('config', 'G-CSLPL8X5FZ');
-          `}
-        </script>
+          gtag('config', 'G-CSLPL8X5FZ');
+        `}}></script>
         <Main />
         <NextScript />
       </body>
