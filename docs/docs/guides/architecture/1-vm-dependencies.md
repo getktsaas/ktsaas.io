@@ -1,8 +1,12 @@
-# Provisioning a new VM
+# VM Dependencies
 
-You've setup a fresh Ubuntu VM. What's left to do before your new KtSaaS app can go live?
+KtSaaS is built to run well on an Ubuntu VM (either self-hosted or on an affordable VPS).
+
+Assuming you've setup a fresh Ubuntu VM, what's left to do before your new KtSaaS app can go live?
 
 Follow the following steps to provision necessary dependencies.
+
+Then clone your project repo, and follow the rest of the steps in the deploy guide.
 
 ## Dependencies
 
