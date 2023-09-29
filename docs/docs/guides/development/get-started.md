@@ -58,7 +58,7 @@ gradle clean runShadow
 
 ### From IntelliJ
 
-In the Gradle tab, navigate to 'tasks/application' and find the 'runShadow' task.
+In the Gradle tab, navigate to `tasks/application` and find the `runShadow` task.
 
 Double click to run it or right click to run in debug mode.
 
