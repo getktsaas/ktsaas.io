@@ -1,4 +1,4 @@
-# Infrastructure
+# Deploy Capacity Planning
 
 KtSaaS has been optimized around self-hosted or cheap VPS deploy environments.
 
@@ -18,7 +18,7 @@ There are many options to consider if you're not self-hosting but don't want to 
 - [Digital Ocean](): $48/m
 - [Linode](): $48/m
 
-# Raw Data
+## Raw Data
 
 Community additions to the data points below are appreciated, just open a PR in this repo!
 
