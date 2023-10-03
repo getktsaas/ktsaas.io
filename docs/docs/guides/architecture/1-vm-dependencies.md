@@ -19,7 +19,11 @@ apt update && apt upgrade
 
 ### Docker
 
+#### Install
+
 Use the latest [install instructions](https://docs.docker.com/engine/install/ubuntu/) for Ubuntu from Docker's website.
+
+#### Non-root user privileges
 
 To avoid being forced to use `sudo` for all docker commands, give the non-root user Docker privileges, from [Docker docs](https://docs.docker.com/engine/install/linux-postinstall/).
 
@@ -27,6 +31,16 @@ To avoid being forced to use `sudo` for all docker commands, give the non-root u
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
+```
+
+#### Docker Swarm
+
+KtSaaS uses Docker Swarm as the primary deploy engine.
+
+Fresh Docker installs will require the following steps to setup and join a new Docker Swarm.
+
+```
+docker swarm init
 ```
 
 ### git & gh
