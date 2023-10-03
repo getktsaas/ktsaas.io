@@ -21,6 +21,14 @@ apt update && apt upgrade
 
 Use the latest [install instructions](https://docs.docker.com/engine/install/ubuntu/) for Ubuntu from Docker's website.
 
+To avoid being forced to use `sudo` for all docker commands, give the non-root user Docker privileges, from [Docker docs](https://docs.docker.com/engine/install/linux-postinstall/).
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+```
+
 ### git & gh
 
 Git and the [Github CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) make it easy to pull your latest application code down and deploy. Skip this if you are using a different setup for source control.
@@ -29,4 +37,5 @@ Git and the [Github CLI](https://github.com/cli/cli/blob/trunk/docs/install_linu
 apt install git
 ```
 Follow the latest install instructions from the [Github CLI docs](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
+
 
