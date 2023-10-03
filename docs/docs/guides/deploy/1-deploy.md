@@ -50,6 +50,11 @@ Creating service portainer_portainer
 Creating service portainer_agent
 ```
 
+Within 30 minutes of first boot of Portainer, you need to go to the web UI and setup the initial admin user.
+
+
+
+
 ## Buildkite
 
 TODO
