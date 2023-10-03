@@ -9,17 +9,92 @@
 
 <url>
   <loc>https://ktsaas.io/</loc>
-  <lastmod>2023-07-27T22:52:15+00:00</lastmod>
+  <lastmod>2023-09-30T04:01:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ktsaas.io/docs/</loc>
-  <lastmod>2023-07-27T22:52:33+00:00</lastmod>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/terms</loc>
+  <lastmod>2023-09-30T04:01:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/privacy</loc>
+  <lastmod>2023-09-30T04:01:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ktsaas.io/docs/index.html</loc>
-  <lastmod>2023-07-27T22:52:33+00:00</lastmod>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/1-vm-dependencies.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/2-source-control.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/3-reverse-proxy.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/4-authentication.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/5-application-backend.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/6-application-database.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/7-application-frontend.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/8-observability.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/architecture/9-ci-cd.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/deploy/1-deploy.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/deploy/2-scale-ci-cd.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/guides/development/1-get-started.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ktsaas.io/docs/reference/infrastructure/deploy-capacity-planning.html</loc>
+  <lastmod>2023-09-30T04:01:43+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
