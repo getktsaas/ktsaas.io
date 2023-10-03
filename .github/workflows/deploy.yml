@@ -81,7 +81,7 @@ jobs:
         uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          path: /home/runner/.cache
           restore-keys: |
             mkdocs-material-
       - name: Setup Mkdocs
