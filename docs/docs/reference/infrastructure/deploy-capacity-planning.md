@@ -15,8 +15,8 @@ This page will be updated regularly to provide up-to-date guidance.
 
 There are many options to consider if you're not self-hosting but don't want to go with a big name public cloud:
 
-- [Digital Ocean](): $48/m
-- [Linode](): $48/m
+- [Digital Ocean](https://www.digitalocean.com/products/droplets): $48/m
+- [Linode](https://www.linode.com/products/shared/): $48/m
 
 ## Raw Data
 

@@ -2,13 +2,13 @@
 
 Try out KtSaaS with a live working demo of the entire architecture.
 
-## Proxy
+## Reverse Proxy (Traefik)
 
 Deploy: traffic.ktsaas.io
 U: demo
 P: demo-password
 
-## Portainer
+## Observability (Portainer)
 
 Deploy: portainer.ktsaas.io
 U: demo
