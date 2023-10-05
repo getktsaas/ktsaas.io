@@ -118,6 +118,8 @@ Done!
 
 ```
 
+Note: this deploy starts the application, jobs cluster, database, database migrator, Authelia, and Authelia database. On first boot, it will take time for databases to be initialized, migrated, before the service hosts will come online.
+
 By default, the deploy script will pull latest from master which may result in a new HEAD git commit sha. In this case, you'll want to provide the SHA shown in the `./ci/ci` logs as in the previous code example.
 
 The deploy script also works from within Buildkite for one-click deploys from your browser. Configure that using the steps in the Buildkite section.
