@@ -124,6 +124,16 @@ By default, the deploy script will pull latest from master which may result in a
 
 The deploy script also works from within Buildkite for one-click deploys from your browser. Configure that using the steps in the Buildkite section.
 
+### Authelia
+
+After initial deploy, you will need to refresh the Authelia config which is stored in the respective Docker volume.
+
+```
+$ ./starter/infra/scripts/refresh_authelia_config.sh
+```
+
+Any changes to files in the `starter/infra/<deploy-env>/authelia/config` will require the above script to be re-run.
+
 ## Proxy
 
 Copy config and .env templates, update and fill in variables accordingly.
