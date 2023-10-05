@@ -21,7 +21,7 @@ cp secrets.env.template production.secrets.env
 vim production.secrets.env
 ```
 
-Now, fill in any configurable fields in `production.secrets.env`. This includes changing from the default `secure-password` to the randomly generated ones you set in your Secrets and YAML files in the next step. They must match for your application to work.
+Now, fill in any configurable fields in `production.secrets.env`. This includes changing from the default `secure-password12345` to the randomly generated ones you set in your Secrets and YAML files in the next step. They must match for your application to work.
 
 Note, the passwords set in the .env file will need to match those in other places including secrets and configuration YAML files.
 
@@ -35,7 +35,7 @@ Start by copying to a new `secrets` directory from the `templates` directory. Th
 $ openssl rand -base64 32 > ./starter/infra/${DEPLOY_ENV}/authelia/secrets/SECRET_FILE
 ```
 
-If you want to initially test that deploys work as expected, you can skip ahead and the default password of `secure-password` will be used for all database authentication and other cases. The only exception is that Authelia will require a working SMTP password and authentication to boot to ensure it can send password reset emails.
+If you want to initially test that deploys work as expected, you can skip ahead and the default password of `secure-password12345` will be used for all database authentication and other cases. The only exception is that Authelia will require a working SMTP password and authentication to boot to ensure it can send password reset emails.
 
 ### Authelia
 
