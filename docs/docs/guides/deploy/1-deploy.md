@@ -31,6 +31,10 @@ Authelia, the Misk backend service, and their respective databases take configur
 
 Start by copying to a new `secrets` directory from the `templates` directory. Then generate random passwords to set for secrets, and confirm that database and other configuration matches your expectations.
 
+```
+$ openssl rand -base64 32 > ./starter/infra/${DEPLOY_ENV}/authelia/secrets/SECRET_FILE
+```
+
 If you want to initially test that deploys work as expected, you can skip ahead and the default password of `secure-password` will be used for all database authentication and other cases. The only exception is that Authelia will require a working SMTP password and authentication to boot to ensure it can send password reset emails.
 
 ### Authelia
