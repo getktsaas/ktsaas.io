@@ -19,9 +19,11 @@ P: demo-password
 Deploy: demo.ktsaas.io
 
 Admin Login
-U:
-P:
+U: admin
+P: demo-password
 
 User Login
-U: 
-P:
+U: user
+P: demo-password
+
+Be sure to try out the admin dashboard at `/v2/_admin/`.
