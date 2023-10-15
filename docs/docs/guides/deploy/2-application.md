@@ -1,13 +1,4 @@
-# Deploy
-
-This guide will help you get your service deployed in a production environment on an Ubuntu VM. It assumes [necessary dependencies](/docs/guides/architecture/vm-dependencies) have been installed, permissions configured, and your project repo has been cloned to disk at `/home/<username>/<project>`.
-
-All commands below assume starting from the root of your project git repo.
-
-Generally, it will be easier to deploy initially in this order given architectural dependencies. For example, the frontend network for the App Docker Stack must be created already before the proxy is started.
-
-
-## App
+# Application
 
 Instructions below will assume setting up a production environment but the steps are the same if you are setting up staging or another environment.
 
@@ -133,61 +124,3 @@ $ ./starter/infra/scripts/refresh_authelia_config.sh
 ```
 
 Any changes to files in the `starter/infra/<deploy-env>/authelia/config` will require the above script to be re-run.
-
-## Proxy
-
-Copy config and .env templates, update and fill in variables accordingly.
-
-```
-cd docker/proxy
-cp -r config-template config
-cp .env.template .env
-```
-
-When you run `./start.sh` the first time, it will fail since the shared application network doesn't exist. 
-
-The network name should be according to this pattern `<environment>-<service name>_network-<frontend or backend>`, ie. `production-starter_network-frontend`. Create the missing network with the following command.
-
-```
-docker network create <network name from error> --driver overlay --attachable
-```
-
-Re-run `./start.sh` and you'll see the following output.
-
-```
-Creating network proxy_network
-Creating service proxy_proxy
-```
-
-## Portainer
-
-Copy config and .env templates, update and fill in variables accordingly.
-
-```
-cd docker/portainer
-cp .env.template .env
-```
-
-For a default Docker installation, the `DOCKER_VOLUMES_DIR` should be set to `/var/lib/docker/volumes`.
-
-Start Portainer by running `./start.sh`. If successful, you should see the following output.
-
-```
-Creating network portainer_agent_network
-Creating service portainer_portainer
-Creating service portainer_agent
-```
-
-Within 30 minutes of first boot of Portainer, you need to go to the web UI and setup the initial admin user.
-
-If you forget, you'll need to manually delete the Docker containers and re-deploy.
-
-## Buildkite
-
-Buildkite is a more flexible and cheaper hybrid CI/CD solution than Github Actions. It's cheaper since you end up hosting the build agent on your own infrastructure, instead of renting time on Microsoft's expensive VMs. It's more flexible likely from Buildkite being solely focused on CI/CD vs Github Actions being just another one of the many products that Github builds for developers and organizations.
-
-Start by creating a new Buildkite account.
-
-You'll then need to get your Buildkite agent token, and analytics token (optionally) to include in the `.env` file for the deploy before.
-
-TODO...
