@@ -180,9 +180,14 @@ Creating service portainer_agent
 
 Within 30 minutes of first boot of Portainer, you need to go to the web UI and setup the initial admin user.
 
-
-
+If you forget, you'll need to manually delete the Docker containers and re-deploy.
 
 ## Buildkite
 
-TODO
+Buildkite is a more flexible and cheaper hybrid CI/CD solution than Github Actions. It's cheaper since you end up hosting the build agent on your own infrastructure, instead of renting time on Microsoft's expensive VMs. It's more flexible likely from Buildkite being solely focused on CI/CD vs Github Actions being just another one of the many products that Github builds for developers and organizations.
+
+Start by creating a new Buildkite account.
+
+You'll then need to get your Buildkite agent token, and analytics token (optionally) to include in the `.env` file for the deploy before.
+
+TODO...
