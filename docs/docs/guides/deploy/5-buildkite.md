@@ -22,6 +22,8 @@ deploy
  => [internal] load metadata for docker.io/buildkite/agent:edge-ubuntu-2  18.7s
 ```
 
+Note: the start/stop script includes commented out WIP functionality for handling testing databases with isolated networks which will be included in an upcoming release.
+
 ## Buildkite Agent Directory  
 
 The Buildkite agent runs all CI tasks within a specific directory that you can configure. In the below example, `/var/lib/buildkite-agent` is used.
