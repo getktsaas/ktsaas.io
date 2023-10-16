@@ -2,6 +2,20 @@
 
 Try out KtSaaS with a live working demo of the entire architecture.
 
+## Application
+
+[demo.ktsaas.io](https://demo.ktsaas.io/)
+
+### Admin Login
+- U: admin
+- P: demo-password
+
+### User Login
+- U: user
+- P: demo-password
+
+Be sure to try out the admin dashboard at [/v2/_admin/](https://demo.ktsaas.io/v2/_admin/).
+
 ## Reverse Proxy (Traefik)
 
 traffic.ktsaas.io
@@ -18,16 +32,9 @@ portainer.ktsaas.io
 - U: demo
 - P: demo-password
 
-## App
+## CI/CD
 
-demo.ktsaas.io
+[Buildkite](https://buildkite.com/ktsaas/)
 
-### Admin Login
-- U: admin
-- P: demo-password
 
-### User Login
-- U: user
-- P: demo-password
 
-Be sure to try out the admin dashboard at `/v2/_admin/`.
