@@ -28,7 +28,7 @@ Note: the start/stop script includes commented out WIP functionality for handlin
 
 The Buildkite agent runs all CI tasks within a specific directory that you can configure. In the below example, `/var/lib/buildkite-agent` is used.
 
-Configure it in the `docker/buildkite/.env` file.
+Configure it in the `docker/buildkite/.all.env` file.
 
 ```
 BUILDKITE_AGENT_DIR=/var/lib/buildkite-agent
@@ -79,7 +79,7 @@ Hermit is used to setup build dependencies for the starter repo including Java a
 
 Using the same directory across all agents speeds up builds by using a common shared dependency cache.
 
-Configure it in the `docker/buildkite/.env` file.
+Configure it in the `docker/buildkite/.all.env` file.
 
 ```
 HERMIT_STATE_DIR=/var/lib/hermit
@@ -89,7 +89,7 @@ HERMIT_STATE_DIR=/var/lib/hermit
 
 To let a Buildkite agent handle deploys, it needs to have access to your primary code directory on the VM so it can have access to all the secrets, configuration, and DB migrations which you manually configured in setting up the application deploy.
 
-Configure it in the `docker/buildkite/.env` file.
+Configure it in the `docker/buildkite/.all.env` file.
 
 ```
 APPLICATION_DEPLOY_DIR=/home/ubuntu/ktsaas-starter
@@ -99,7 +99,7 @@ APPLICATION_DEPLOY_DIR=/home/ubuntu/ktsaas-starter
 
 Analytics is an optional feature you can use which requires a separate token from your Buildkite dashboard. The Analytics feature tracks your test suite performance over time to highlight long running or flakey tests.
 
-Configure it in the `docker/buildkite/.env` file.
+Configure it in the `docker/buildkite/.all.env` file.
 
 ```
 BUILDKITE_ANALYTICS_TOKEN=<analytics-token-from-buildkite>
