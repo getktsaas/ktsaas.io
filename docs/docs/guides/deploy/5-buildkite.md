@@ -40,6 +40,10 @@ Create a Buildkite Agent config file with the name `buildkite-agent.cfg` in your
 
 Copy the file from `docker/buildkite/buildkite-agent.cfg.template` or from the Buildkite docs.
 
+### Agent Binary
+
+Use the [install instructions](https://buildkite.com/docs/agent/v3/installation) from Buildkite to setup the agent CLI on your host. Add it within a `/bin` directory in your agent directory (ie. `/var/lib/buildkite-agent/bin`).
+
 ### Agent Token
 
 Edit the `buildkite-agent.cfg` to set your Buildkite agent token from your Buildkite account.
