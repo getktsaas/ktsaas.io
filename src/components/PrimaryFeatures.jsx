@@ -12,15 +12,22 @@ import screenshotPayments from '@/images/screenshots/payments.png'
 
 const features = [
   {
-    title: 'Kotlin Scalable Service Framework',
+    title: 'Service Framework',
     description:
-      'Built on Misk, a Kotlin service framework, used at 40k+ QPS scale by Cash App, Faire, Square, and other big companies.',
+      'KtSaaS is built on Misk, a Kotlin microservice framework, used at 40k+ QPS scale by Cash App, Faire, Square, and other big companies. Misk is open source and well proven on all dimensions of performance, product, and team scale.',
     image: screenshotMiskConfig,
   },
+  // TODO fix Authelia screenshot
   {
-    title: 'Kotlin Database ORM + MySQL8',
+    title: 'Login Auth',
     description:
-      'Use SqlDelight to interact with the database: generated Kotlin to code against in your service + all queries still written in SQL.',
+      'KtSaaS uses Authelia to handle email based login authentication. Authelia is an established project and open source so you can trust that your SaaS authentication is secure.',
+    image: screenshotSqlDelight,
+  },
+  {
+    title: 'Database',
+    description:
+      'Use SqlDelight to interact with your database: generated Kotlin to code against in your service + all queries still written in SQL. KtSaaS ships with MySQL8, but SqlDelight supports alternative databases including PostgreSql.',
     image: screenshotSqlDelight,
   },
   // {
@@ -36,7 +43,7 @@ const features = [
   //   image: screenshotVatReturns,
   // },
   {
-    title: 'Admin Dashboard (Config, Curl, & more)',
+    title: 'Admin Dashboard',
     description:
       'Includes a powerful admin dashboard where you can hit your authenticated endpoints, see live service config, & more.',
     image: screenshotMiskWebActions,
@@ -84,10 +91,11 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to build your SaaS.
+            Build with a high velocity stack that will grow with you.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            With more on the way, included for free with your licence.
+            Time to ship matters. That's why KtSaaS focuses on a productive stack which makes it easy to ship your first MVP without sacrificing your ability to grow to 1.0 and beyond.
+            <br/><br/>Missing something you need? Submit a request and we will do our best to add it to KtSaaS in a future update. Rememmber, ongoing updates are included with your licence so you can always get the latest.
           </p>
         </div>
         <Tab.Group
