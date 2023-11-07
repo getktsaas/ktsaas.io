@@ -91,11 +91,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Use a high velocity stack that will grow with you.
+            A high velocity stack that can scale with you.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Time to ship matters. That is why KtSaaS focuses on a productive stack which makes it easy to ship your first MVP without sacrificing your ability to grow to 1.0 and beyond.
-            <br/><br/>Missing something you need? Submit a request and we will do our best to add it to KtSaaS in a future update. Rememmber, ongoing updates are included with your licence so you can always get the latest.
+            Time to ship matters. KtSaaS focuses on a productive stack which makes it easy to ship your first MVP without sacrificing your ability to grow to 1.0 and beyond. Missing something you need? Submit a request and we will do our best to add it to KtSaaS in a future update. Rememmber, ongoing updates are included with your licence so you can always get the latest.
           </p>
         </div>
         <Tab.Group
