@@ -8,7 +8,7 @@ const faqs = [
     {
       question: 'What is KtSaaS?',
       answer:
-        "KtSaaS is a starter codebase that let's you focus your efforts on business logic & UI. You get a lot of batteries included: initial service structure, DB connectivity, deploys with Docker Swarm, devops (CI/CD, observability, SSL certs), and more. For small teams, this can save you months of setup. Skip straight to high velocity, productive software development.",
+        "KtSaaS is a boilerplate codebase that let's you focus your efforts on business logic & UI. You get a lot of batteries included: initial service structure, DB connectivity, deploys with Docker Swarm, devops (CI/CD, observability, SSL certs), and more. For small teams, this can save you months of setup. Skip straight to high velocity, productive software development.",
     },
     {
       question: 'Who is this for?',
@@ -18,7 +18,7 @@ const faqs = [
     {
       question: 'Can I see the product before purchasing?',
       answer:
-        'You bet! Try the live demo to see what the starter comes with. Check the documentation to understand how you can get started once you buy your licence.',
+        'You bet! Try the live demo to see what the boilerplate comes with. Check the documentation to understand how you can get started once you buy your licence.',
     },
     {
       question: 'Can I use the code for multiple projects?',
@@ -28,7 +28,7 @@ const faqs = [
   ],
   [
     {
-      question: 'How will I get access to the starter source code?',
+      question: 'How will I get access to the boilerplate source code?',
       answer:
         'Use the email associated with your Github account during purchase. Once your payment is processed, your Github account will be granted access to the private repository containing the KtSaaS starter code.',
     },

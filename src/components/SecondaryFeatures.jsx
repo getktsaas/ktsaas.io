@@ -12,7 +12,7 @@ const features = [
   {
     name: 'CI/CD',
     summary:
-      'Already configured with CI, green builds & one-click deploys on every PR.',
+      'Pre-configured for CI, green builds, & one-click deploys on every PR.',
     description:
       'Start from day one with Github Actions or BuildKite. No more breaking master from no PR tests. Even deploy with one click (BuildKite only).',
     image: screenshotCiCd,
@@ -46,9 +46,9 @@ const features = [
   },
   {
     name: 'Deploy',
-    summary: 'Docker Swarm deploys with HTTPS, routing, & login flow built in.',
+    summary: 'Docker Swarm deploys with HTTPS, routing, database, & auth built in.',
     description:
-      "Don't worry about spending days configuring reverse proxy, DB backups & migrations, or hardening your login flow. It's all included and built with OSS primitives you can verify & trust.",
+      "Skip weeks configuring reverse proxy, DB backups & migrations, or hardening your login auth flow. It's all included and built with OSS libraries you can verify & trust.",
     image: screenshotDeploy,
     icon: function InventoryIcon() {
       return (
@@ -219,7 +219,7 @@ export function SecondaryFeatures() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             {
-              "Don't waste weeks wiring up your CI/CD, databases, reverse proxy, observability. Your new SaaS app is ready to launch when you clone the starter."
+              "Skip the weeks spent wiring up your CI/CD, databases, reverse proxy, observability. Your new SaaS app is ready to deploy when you clone the boilerplate repo."
             }
           </p>
         </div>
