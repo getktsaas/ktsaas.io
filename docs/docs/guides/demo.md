@@ -14,7 +14,7 @@ Try out KtSaaS with a live working demo of the entire architecture.
 - U: user
 - P: demo-password
 
-Be sure to try out the admin dashboard at [/v2/_admin/](https://demo.ktsaas.io/v2/_admin/).
+Be sure to try out the admin dashboard at [/_admin/](https://demo.ktsaas.io/_admin/).
 
 ## Reverse Proxy (Traefik)
 

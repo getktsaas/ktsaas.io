@@ -24,7 +24,7 @@ See the [Misk docs](https://cashapp.github.io/misk/) and repo for more informati
 
 Misk ships with a powerful admin dashboard so you can easily monitor and control your application from any browser.
 
-Find it at `/v2/_admin/` wherever your application is hosted.
+Find it at `/_admin/` wherever your application is hosted.
 
 ![See all the YAML and JVM config. Misk admin dashboard Config tab.](/docs/img/misk-admin-dashboard-config.png)
 ![Like a built-in Postman: the Misk admin dashboard Web Actions tab.](/docs/img/misk-admin-dashboard-web-actions.png)

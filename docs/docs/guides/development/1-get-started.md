@@ -66,7 +66,7 @@ Double click to run it or right click to run in debug mode.
 
 The service in development runs on port 6080.
 
-Open your browser and try out the Misk admin dashboard at localhost:6080/v2/_admin/.
+Open your browser and try out the Misk admin dashboard at localhost:6080/_admin/.
 
 Or use curl from your Terminal.
 
