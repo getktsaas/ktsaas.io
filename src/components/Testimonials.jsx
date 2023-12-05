@@ -112,7 +112,7 @@ export function Testimonials() {
                               {testimonial.author.role}
                             </div>
                           :
-                            <a href={testimonial.author.roleUrl} target="_blank" className="hover:underline hover:text-medium">
+                            <a href={testimonial.author.roleUrl} target="_blank" rel="noreferrer" className="hover:underline hover:text-medium">
                               <div className="mt-1 text-sm text-slate-500">
                                 {testimonial.author.role}
                               </div>
