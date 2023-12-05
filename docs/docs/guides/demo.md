@@ -35,7 +35,3 @@ portainer.ktsaas.io
 ## CI/CD
 
 [Buildkite](https://buildkite.com/ktsaas/)
-
-
-
-

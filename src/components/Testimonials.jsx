@@ -39,6 +39,15 @@ const testimonials = [
         // image: avatarImage5,
       },
     },
+    {
+      content:
+        "Top Kotlin boilerplate by far.",
+      author: {
+        // name: 'Amy Hahn',
+        role: 'WifiMoneyTools.io',
+        // image: avatarImage5,
+      },
+    },
   ],
 ]
 
