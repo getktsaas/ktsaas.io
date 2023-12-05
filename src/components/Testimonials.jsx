@@ -18,6 +18,16 @@ const testimonials = [
         // image: avatarImage2,
       },
     },
+    {
+      content:
+        "This is the top Kotlin boilerplate by far.",
+      author: {
+        name: '@thebeautyofsaas ',
+        role: 'WifiMoneyTools.io',
+        roleUrl: "https://wifimoneytools.io/saas/"
+        // image: avatarImage5,
+      },
+    },
   ],
   [
     {
@@ -28,6 +38,17 @@ const testimonials = [
         // image: avatarImage3,
       },
     },
+    {
+      // https://open.substack.com/pub/saaswifimoney/p/what-programming-language-should?r=2agonm&utm_campaign=post&utm_medium=web
+      content:
+        "You should consider learning Kotlin and using KtSaaS.",
+      author: {
+        name: '@bowtieddingo',
+        role: 'SaaS Wifi Money Substack',
+        roleUrl: "https://open.substack.com/pub/saaswifimoney/p/what-programming-language-should?r=2agonm&utm_campaign=post&utm_medium=web"
+        // image: avatarImage5,
+      },
+    },
   ],
   [
     {
@@ -36,26 +57,6 @@ const testimonials = [
       author: {
         // name: 'Amy Hahn',
         role: 'CTO, SaaS Founder',
-        // image: avatarImage5,
-      },
-    },
-    {
-      // https://wifimoneytools.io/saas/
-      content:
-        "Top Kotlin boilerplate by far.",
-      author: {
-        name: '@thebeautyofsaas ',
-        role: 'WifiMoneyTools.io',
-        // image: avatarImage5,
-      },
-    },
-    {
-      // https://open.substack.com/pub/saaswifimoney/p/what-programming-language-should?r=2agonm&utm_campaign=post&utm_medium=web
-      content:
-        "You should consider learning Kotlin and using KtSaaS.",
-      author: {
-        name: '@bowtieddingo',
-        role: 'SaaS Wifi Money Substack',
         // image: avatarImage5,
       },
     },
@@ -107,10 +108,18 @@ export function Testimonials() {
                           <div className="font-display text-base text-slate-900">
                             {testimonial.author.name}
                           </div>
-                          <div className="mt-1 text-sm text-slate-500">
-                            {testimonial.author.role}
+                          {(testimonial.author.roleUrl == null)?
+                            <div className="mt-1 text-sm text-slate-500">
+                              {testimonial.author.role}
+                            </div>
+                          :
+                            <a href={testimonial.author.roleUrl} target="_blank" className="hover:underline hover:text-medium">
+                              <div className="mt-1 text-sm text-slate-500">
+                                {testimonial.author.role}
+                              </div>
+                            </a>
+                          } 
                           </div>
-                        </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           {testimonial.author.image && (
                             <Image
