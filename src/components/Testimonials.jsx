@@ -39,7 +39,6 @@ const testimonials = [
       },
     },
     {
-      // https://open.substack.com/pub/saaswifimoney/p/what-programming-language-should?r=2agonm&utm_campaign=post&utm_medium=web
       content:
         "You should consider learning Kotlin and using KtSaaS.",
       author: {
