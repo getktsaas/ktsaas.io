@@ -40,11 +40,22 @@ const testimonials = [
       },
     },
     {
+      // https://wifimoneytools.io/saas/
       content:
         "Top Kotlin boilerplate by far.",
       author: {
-        // name: 'Amy Hahn',
+        name: '@thebeautyofsaas ',
         role: 'WifiMoneyTools.io',
+        // image: avatarImage5,
+      },
+    },
+    {
+      // https://open.substack.com/pub/saaswifimoney/p/what-programming-language-should?r=2agonm&utm_campaign=post&utm_medium=web
+      content:
+        "You should consider learning Kotlin and using KtSaaS.",
+      author: {
+        name: '@bowtieddingo',
+        role: 'SaaS Wifi Money Substack',
         // image: avatarImage5,
       },
     },
